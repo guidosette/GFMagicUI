@@ -7,9 +7,12 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+![Alt Text](https://github.com/guidosette/GFMagicUI/blob/master/photo.gif)
 
-## Requirements
+A quicklytool to locate and customize your storyboard.
+You can quickly locate your storyboard. You can customize your Font name, size and color.
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Installation
 
@@ -19,6 +22,9 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'GFMagicUI'
 ```
+
+## How to use
+
 
 ## Author
 
