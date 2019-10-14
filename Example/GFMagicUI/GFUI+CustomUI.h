@@ -1,0 +1,41 @@
+//
+//  GFUI+CustomUI.h
+//  GFMagicUI_Example
+//
+//  Created by Guido Fanfani on 14/10/2019.
+//  Copyright © 2019 guidosette. All rights reserved.
+//
+
+#import "GFUI.h"
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface GFUI (CustomUI)
+
+/**
+ Color
+ */
+typedef NS_ENUM(int, CustomColorFanfa) {
+    TEXT_COLOR_DARK_GREY_FANFA = 1,
+    TEXT_COLOR_LIGHT_GREY_FANFA = 2,
+    MAIN_COLOR_FANFA = 3,
+    TEXT_COLOR_WHITE_FANFA = 4,
+    TEXT_COLOR_BLACK_FANFA = 5,
+    BACKGROUND_COLOR_LIGHT_GREY_FANFA = 6,
+    TEXT_COLOR_PLACEHOLDER_FANFA = 7,
+    TEXT_COLOR_CLEAR_FANFA = 8,
+    BACKGROUND_COLOR_DARK_GREY_FANFA = 9,
+    TEXT_COLOR_RED_FANFA = 10,
+    GRADIENT_START_FANFA = 11,
+    GRADIENT_END_FANFA = 12,
+    RED_COLOR_FANFA = 13,
+    BLUE_COLOR_FANFA = 14,
+    GREEN_COLOR_FANFA = 15,
+    BLACK_COLOR_FANFA = 16,
+    ORANGE_COLOR_FANFA = 17,
+    YELLOW_COLOR_FANFA = 18
+};
+
+@end
+
+NS_ASSUME_NONNULL_END

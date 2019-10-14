@@ -1,0 +1,6 @@
+framework module GFMagicUI {
+  umbrella header "GFMagicUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

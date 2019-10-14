@@ -1,0 +1,22 @@
+{
+  "name": "GFMagicUI",
+  "version": "0.1.0",
+  "summary": "A short description of GFMagicUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/guidosette/GFMagicUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "guidosette": "guido.fanfani7@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/guidosette/GFMagicUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GFMagicUI/Classes/**/*"
+}

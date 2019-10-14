@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3JT-fa-DTm">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,12 +18,300 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YxB-99-VKl">
+                                <rect key="frame" x="20" y="44" width="335" height="623"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="s0b-5X-F6b">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="1123.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yaH-h1-NL9">
+                                                <rect key="frame" x="102" y="0.0" width="131.5" height="80.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TkN-MC-4Aa" customClass="GFLabel">
+                                                        <rect key="frame" x="0.0" y="31.5" width="26.5" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfColor">
+                                                                <integer key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfSize">
+                                                                <integer key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="gfLanguage" value="test"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkn-lr-FQh" customClass="GFLabel">
+                                                        <rect key="frame" x="49.5" y="30" width="29.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfColor">
+                                                                <integer key="value" value="2"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfSize">
+                                                                <integer key="value" value="2"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="gfLanguage" value="test"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PqU-T6-V7L" customClass="GFLabel">
+                                                        <rect key="frame" x="99" y="29" width="32.5" height="23"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfColor">
+                                                                <integer key="value" value="3"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfSize">
+                                                                <integer key="value" value="3"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="gfLanguage" value="test"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ViK-a7-fDo">
+                                                <rect key="frame" x="134" y="90.5" width="67" height="122.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKY-Pv-I6p" customClass="GFButton">
+                                                        <rect key="frame" x="0.0" y="44" width="67" height="35"/>
+                                                        <inset key="contentEdgeInsets" minX="8" minY="6" maxX="8" maxY="8"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfColor">
+                                                                <integer key="value" value="5"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfSize">
+                                                                <integer key="value" value="2"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfBackgroundColor">
+                                                                <integer key="value" value="7"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="gfLanguage" value="button"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfCornerRadius">
+                                                                <integer key="value" value="12"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfBorderWidth">
+                                                                <integer key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfBorderColor">
+                                                                <integer key="value" value="3"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="RXf-53-LD5">
+                                                <rect key="frame" x="137.5" y="223" width="60" height="210"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test" translatesAutoresizingMaskIntoConstraints="NO" id="OUR-BK-C5V" customClass="GFImageView">
+                                                        <rect key="frame" x="0.0" y="75" width="60" height="60"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="60" id="HWO-oZ-2Wv"/>
+                                                            <constraint firstAttribute="width" constant="60" id="M9j-Sv-t4C"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfBackgroundColor">
+                                                                <integer key="value" value="7"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfCornerRadius">
+                                                                <integer key="value" value="-1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfBorderWidth">
+                                                                <integer key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfBorderColor">
+                                                                <integer key="value" value="2"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="5Te-Fe-5c4">
+                                                <rect key="frame" x="47.5" y="443" width="240" height="175"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zWR-Tu-f2a">
+                                                        <rect key="frame" x="0.0" y="62.5" width="240" height="50"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="JUy-ev-App">
+                                                <rect key="frame" x="0.0" y="628" width="335" height="7"/>
+                                                <subviews>
+                                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="mtd-xs-J1e" customClass="GFProgressView">
+                                                        <rect key="frame" x="0.0" y="1.5" width="335" height="4"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfBackgroundColor">
+                                                                <integer key="value" value="2"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfUnprogressColor">
+                                                                <integer key="value" value="7"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfProgressColor">
+                                                                <integer key="value" value="3"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfHeight">
+                                                                <integer key="value" value="2"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfCornerRadius">
+                                                                <integer key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </progressView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="mtd-xs-J1e" firstAttribute="width" secondItem="JUy-ev-App" secondAttribute="width" id="yU9-Kj-Wks"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="aP8-QI-Wnc">
+                                                <rect key="frame" x="151.5" y="645" width="32" height="119"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ohe-84-4h4" customClass="GFTextField">
+                                                        <rect key="frame" x="0.0" y="42.5" width="32" height="34"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfColor">
+                                                                <integer key="value" value="3"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfSize">
+                                                                <integer key="value" value="3"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="gfPlaceholderLanguage" value="test"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfPlaceholderColor">
+                                                                <integer key="value" value="7"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ZuK-B5-DbQ">
+                                                <rect key="frame" x="0.0" y="774" width="335" height="143.5"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4hW-yp-hIY" customClass="GFTextFieldWithBorder">
+                                                        <rect key="frame" x="0.0" y="51.5" width="335" height="41"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfBorderColor">
+                                                                <integer key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfColor">
+                                                                <integer key="value" value="2"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfSize">
+                                                                <integer key="value" value="2"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfPlaceholderColor">
+                                                                <integer key="value" value="7"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="gfPlaceholderLanguage" value="test"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="t4g-Jf-g0k">
+                                                <rect key="frame" x="0.0" y="927.5" width="335" height="196"/>
+                                                <subviews>
+                                                    <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Kx2-ER-MT7" customClass="GFSearchBar">
+                                                        <rect key="frame" x="0.0" y="70" width="335" height="56"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfColor">
+                                                                <integer key="value" value="3"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="gfSize">
+                                                                <integer key="value" value="3"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="xtPlaceholderColor">
+                                                                <integer key="value" value="7"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="gfPlaceholderLanguage" value="test"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </searchBar>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="t4g-Jf-g0k" firstAttribute="width" secondItem="s0b-5X-F6b" secondAttribute="width" id="8Mz-9H-1PU"/>
+                                            <constraint firstItem="ZuK-B5-DbQ" firstAttribute="width" secondItem="s0b-5X-F6b" secondAttribute="width" id="bZp-rY-9w8"/>
+                                            <constraint firstItem="JUy-ev-App" firstAttribute="width" secondItem="s0b-5X-F6b" secondAttribute="width" id="e0c-Gn-wtG"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="s0b-5X-F6b" secondAttribute="trailing" id="M0W-Bc-P0U"/>
+                                    <constraint firstItem="s0b-5X-F6b" firstAttribute="width" secondItem="YxB-99-VKl" secondAttribute="width" id="OIC-dm-hUc"/>
+                                    <constraint firstItem="s0b-5X-F6b" firstAttribute="leading" secondItem="YxB-99-VKl" secondAttribute="leading" id="XN4-Aa-Msd"/>
+                                    <constraint firstItem="s0b-5X-F6b" firstAttribute="top" secondItem="YxB-99-VKl" secondAttribute="top" id="dRr-Cc-loz"/>
+                                    <constraint firstAttribute="bottom" secondItem="s0b-5X-F6b" secondAttribute="bottom" id="jHH-98-8OH"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="7Tn-xM-vEP"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="1nh-uX-7Y0"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YxB-99-VKl" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" id="5J2-Af-DGX"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="YxB-99-VKl" secondAttribute="bottom" id="6aZ-bg-CnP"/>
+                            <constraint firstAttribute="trailing" secondItem="YxB-99-VKl" secondAttribute="trailing" constant="20" id="IXg-G6-lX0"/>
+                            <constraint firstItem="YxB-99-VKl" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="20" id="J6A-oM-oPE"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="vd6-0J-xr4" appends="YES" id="wo8-ae-2WK"/>
+                        </connections>
                     </view>
+                    <navigationItem key="navigationItem" id="Mvx-vP-4AY" customClass="GFNavigationItem">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="rRt-Dg-HX6" customClass="GFBarButtonItem">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="gfLanguage" value="test"/>
+                            </userDefinedRuntimeAttributes>
+                        </barButtonItem>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="gfLanguage" value="test"/>
+                        </userDefinedRuntimeAttributes>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="searchBar" destination="Kx2-ER-MT7" id="shP-Nh-6gp"/>
+                        <outlet property="textField1" destination="ohe-84-4h4" id="C52-kp-wGO"/>
+                        <outlet property="textField2" destination="4hW-yp-hIY" id="VID-hz-aS3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="vd6-0J-xr4">
+                    <connections>
+                        <action selector="hideKeyboard" destination="whP-gf-Uak" id="Iqb-CA-VOv"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="1244" y="432.23388305847078"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gTm-dF-hJK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3JT-fa-DTm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Grb-Vv-zTZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="whP-gf-Uak" kind="relationship" relationship="rootViewController" id="isp-7q-hVa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e73-9x-qJv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="test" width="437.5" height="1194"/>
+    </resources>
 </document>

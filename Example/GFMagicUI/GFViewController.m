@@ -9,6 +9,9 @@
 #import "GFViewController.h"
 
 @interface GFViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textField1;
+@property (weak, nonatomic) IBOutlet UITextField *textField2;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 
 @end
 
@@ -24,6 +27,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)hideKeyboard {
+	[_textField1 resignFirstResponder];
+	[_textField2 resignFirstResponder];
+	[_searchBar resignFirstResponder];
 }
 
 @end

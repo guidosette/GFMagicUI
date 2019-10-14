@@ -1,0 +1,6 @@
+framework module Pods_GFMagicUI_Example {
+  umbrella header "Pods-GFMagicUI_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

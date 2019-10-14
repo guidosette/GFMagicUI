@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  GFMagicUI
+
+  Created by Guido Fanfani on 14/10/2019.
+  Copyright © 2019 guidosette. All rights reserved.
+*/
+"test" = "Test";
+"button" = "Button";
