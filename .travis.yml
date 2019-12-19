@@ -10,5 +10,7 @@ before_install:
 - gem install cocoapods # Since Travis is not always on latest version
 - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/GFMagicUI.xcworkspace -scheme GFMagicUI-Example -sdk iphonesimulator12.1 ONLY_ACTIVE_ARCH=NO | xcpretty
-- pod lib lint
+- set -o pipefail
+- xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" ONLY_ACTIVE_ARCH=YES clean test | xcpretty -c
+#- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/GFMagicUI.xcworkspace -scheme GFMagicUI-Example -sdk iphonesimulator12.1 ONLY_ACTIVE_ARCH=NO | xcpretty
+#- pod lib lint
