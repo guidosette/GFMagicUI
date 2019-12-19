@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "GFTextField.h"
 
-IB_DESIGNABLE
+// IB_DESIGNABLE
 @interface GFTextFieldWithBorder : GFTextField
 
 @property (nonatomic) IBInspectable NSInteger gfBorderColor;

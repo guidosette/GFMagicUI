@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-IB_DESIGNABLE
+// IB_DESIGNABLE
 @interface GFTextView : UITextView
 
 @property (nonatomic) IBInspectable NSInteger gfColor;

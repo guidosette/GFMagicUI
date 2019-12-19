@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-IB_DESIGNABLE
+// IB_DESIGNABLE
 @interface GFProgressView : UIProgressView
 
 @property (nonatomic) IBInspectable NSInteger gfBackgroundColor;

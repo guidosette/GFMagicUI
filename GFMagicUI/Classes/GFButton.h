@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-IB_DESIGNABLE
+// IB_DESIGNABLE
 @interface GFButton : UIButton
 
 @property (nonatomic) IBInspectable NSInteger gfColor;
