@@ -54,7 +54,7 @@ Font name/size
 
 	@end
 	
-Color
+    Color
 	typedef NS_ENUM(int, CustomColorFanfa) {
 		TEXT_COLOR_DARK_GREY_FANFA = 1,
 		TEXT_COLOR_LIGHT_GREY_FANFA = 2,
